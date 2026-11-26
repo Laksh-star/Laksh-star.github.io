@@ -239,14 +239,14 @@
   .tags li { font-size: 12.5px; padding: 4px 9px; border-radius: 6px; background: var(--chip); color: var(--muted); }
   .links { display: flex; gap: 14px; border-top: 1px solid var(--line); padding-top: 12px; font: 700 14px/1 var(--sans); }
   .links a { position: relative; z-index: 1; }
-  .card.feature { grid-column: span 2; background: linear-gradient(135deg, var(--teal) 0%, var(--teal-lo) 100%); border-color: transparent; color: var(--ivory); }
+  .card.feature { background: linear-gradient(135deg, var(--teal) 0%, var(--teal-lo) 100%); border-color: transparent; color: var(--ivory); }
   .card.feature h3 a, .card.feature p { color: var(--ivory); }
   .card.feature h3 { font-size: 26px; }
   .card.feature .world { color: var(--gold); }
   .card.feature .lang, .card.feature .tags li { background: rgba(247, 244, 239, .1); color: rgba(247, 244, 239, .85); }
   .card.feature .links { border-color: rgba(247, 244, 239, .16); }
   .card.feature .links a { color: #F1DDAE; }
-  @media (max-width: 620px) { .card.feature { grid-column: auto; } }
+  @media (min-width: 621px) and (max-width: 980px) { .card.feature { grid-column: span 2; } }
   .more { margin-top: 26px; font-weight: 700; }
 
   /* Research */
